@@ -38,3 +38,8 @@ steps:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'myArtifact'
     publishLocation: 'Container'
+
+- task: CmdLine@2
+  inputs:
+    script: 'pwd
+      ls'
