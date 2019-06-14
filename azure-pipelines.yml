@@ -42,4 +42,6 @@ steps:
 - task: CmdLine@2
   inputs:
     script: 'pwd
+      ls
+      cd s
       ls'
